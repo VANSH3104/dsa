@@ -41,7 +41,7 @@ public class Searching {
         }
         else if(location == 0){
             node.next = head;
-            // node.prev = tail;
+            node.prev = tail;
             head.prev = node;
             tail.next = node;
             head = node;
